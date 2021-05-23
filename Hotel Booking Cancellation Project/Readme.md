@@ -44,12 +44,13 @@
            Group – when the booking is associated to a group; 
            Transient – when the booking is not part of a group or contract, and is not associated to other transient booking;
            Transient-party – when the booking is transient, but is associated to at least other transient booking
-    * adr=Average Daily Rate as defined by dividing the sum of all lodging transactions by the total number of staying nights
-    * required_car_parking_spaces=Number of car parking spaces required by the customer
-    * total_of_special_requests=Number of special requests made by the customer (e.g. twin bed or high floor)
-    * reservation_status=Reservation last status, assuming one of three categories: 
+           
+   * adr=Average Daily Rate as defined by dividing the sum of all lodging transactions by the total number of staying nights 
+   * required_car_parking_spaces=Number of car parking spaces required by the customer
+   * total_of_special_requests=Number of special requests made by the customer (e.g. twin bed or high floor)
+   * reservation_status=Reservation last status, assuming one of three categories: 
             Canceled – booking was canceled by the customer; 
             Check-Out – customer has checked in but already departed;
             No-Show – customer did not check-in and did inform the hotel of the reason why
-    * reservation_status_date=Date at which the last status was set. This variable can be used in conjunction with the Reservation Status to 
+   * reservation_status_date=Date at which the last status was set. This variable can be used in conjunction with the Reservation Status to 
             understand when was the booking canceled or when did the customer checked-out of the hotel
